@@ -1,0 +1,35 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Platform generated files
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+
+# Firebase / environment secrets
+.env
+.env.*
+!.env.example
+.firebase/
+.firebaserc
+firebase-debug.log
+
+# Node
+functions/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
