@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "inventory",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "category", "order": "ASCENDING"},
+        {"fieldPath": "expirationDate", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "inventory",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "storageLocation", "order": "ASCENDING"},
+        {"fieldPath": "expirationDate", "order": "ASCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
